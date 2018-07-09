@@ -102,7 +102,7 @@ HTTP Status 200 OK
                     "impid": "C8C21CC5ABDE47A1",
                     "price": 1.75,
                     "adm": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<VAST version=\"2.0\">\n <Ad id=\"qcWW7SLTLIGaHgmgsBeC\">\n  <InLine>\n   <AdSystem>adtelligent.com</AdSystem>\n   <AdTitle><![CDATA[ 82057.713253288.834430 ]]></AdTitle>\n   <Creatives>\n    <Creative sequence=\"1\">\n     <Linear>\n      <Duration>00:00:30</Duration>\n      <MediaFiles>\n       <MediaFile id=\"adtelligent.com\" delivery=\"progressive\" width=\"640\" height=\"360\" type=\"video/mp4\" bitrate=\"578\" scalable=\"true\" maintainAspectRatio=\"true\"><![CDATA[https://cdn.adtelligent.com/vpaid-tests/vm_passback_360.mp4?price=${AUCTION_PRICE}&cur=${AUCTION_CURRENCY}&imp=${AUCTION_IMP_ID}]]></MediaFile>\n      </MediaFiles>\n     </Linear>\n    </Creative>\n   </Creatives>\n  </InLine>\n </Ad>\n</VAST>",
-                    "nurl": "http://adsn.adtelligent.com/crossdomain.xml?price=${AUCTION_PRICE}&cur=${AUCTION_PRICE}&imp=${AUCTION_IMP_ID}",
+                    "nurl": "http://adsn.adtelligent.com/tracking/win?adid=0C3FAEFB58D44111&event=nurl&price=${AUCTION_PRICE}",
                     "ext": {
                         "avn": "Adtelligent LLC",
                         "agn": "Adtelligent LLC"

@@ -3,7 +3,8 @@
 
 ## OpenRTB Version HTTP Header
 The OpenRTB Version should be passed in the header of a bid request with a custom header parameter. This will allow bidders to recognize the version of the message contained before attempting to parse the request.
-Adtelligent supports 2.2 - 2.5 OpenRTB version
+Adtelligent supports 2.2 - 2.5 OpenRTB version.
+
 Please, specify the preferred OpenRTB version in the header:
 ```$xslt
 X-openrtb-version: 2.5
